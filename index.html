@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Шелкович_А.В._ІК-22</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 50%;
+      }
+      td {
+        border: 1px solid black;
+        text-align: center;
+      }
+      tr {
+        height: 30px;
+      }
+      tr:nth-child(1) {
+        background-color: #388f8f;
+        color: #ffffff;
+      }
+      tr:nth-child(2) {
+        background-color: #f5f538;
+        color: #000000;
+      }
+      tr:nth-child(1):hover {
+        background-color: #ffffff;
+        color: #388f8f;
+      }
+      tr:nth-child(2):hover {
+        background-color: #000000;
+        color: #f5f538;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td></td>
+        <td></td>
+        <td colspan="2" rowspan="2">Шелкович</td>
+        <td colspan="2">Анна</td>
+        <td colspan="2" rowspan="2">Вадимівна</td>
+      </tr>
+
+      <tr>
+        <td colspan="2">ІК-22</td>
+        <td colspan="2">ЛР-2 Варіант 8</td>
+      </tr>
+
+      <tr>
+        <td colspan="2"></td>
+        <td colspan="6"></td>
+      </tr>
+    </table>
+
+    <!-- Перша пара квадратів з використанням position -->
+    <div class="container">
+      <div class="square brown"></div>
+      <div class="square orange"></div>
+    </div>
+
+    <!-- Друга пара квадратів з використанням transform -->
+    <div class="transform-container">
+      <div class="transform-square transform-orange"></div>
+      <div class="transform-square transform-brown"></div>
+    </div>
+  </body>
+</html>
